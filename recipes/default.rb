@@ -4,4 +4,4 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-include_recipe 'consulproject::consulproject'
+include_recipe 'consulproject::postgresql'
