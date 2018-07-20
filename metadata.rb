@@ -1,11 +1,13 @@
 name 'consulproject'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Mauricio Araya'
+maintainer_email 'hey@mauricioaraya.net'
 license 'All Rights Reserved'
 description 'Installs/Configures consulproject'
 long_description 'Installs/Configures consulproject'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
+
+depends 'postgresql', '~> 7.1.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
